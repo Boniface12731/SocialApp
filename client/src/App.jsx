@@ -4,14 +4,13 @@ import Login from './pages/Login'
 import Feed from './pages/Feed'
 import Messages from './pages/Messages'
 import ChatBox from './pages/ChatBox'
-import Connections from './pages/Connection'
+import Connections from './pages/Connections'
 import Discover from './pages/Discover'
 import Profile from './pages/Profile'
 import CreatePost from './pages/CreatePost'
 import {useUser, useAuth} from '@clerk/clerk-react'
 import Layout from './pages/Layout'
 import toast, {Toaster} from 'react-hot-toast'
-
 
 const App = () => {
   const {user} = useUser()
@@ -34,5 +33,4 @@ const App = () => {
     </>
   )
 }
-
 export default App
