@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { Image, X } from 'lucide-react'
 import toast from 'react-hot-toast'
 
+
 const CreatePost = () => {
   const navigate = useNavigate()
   const [content, setContent] = useState('')
